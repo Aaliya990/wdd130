@@ -253,7 +253,7 @@ body.contact-page .company-info p {
 }
 
 
-body.contact-page .company-info iframe {
+body.contact-page  iframe {
   width: 100%;         
   height: 250px;
   border: none;        
