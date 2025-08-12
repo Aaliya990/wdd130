@@ -155,7 +155,8 @@ header,main,footer{
 }
 h1,h2{
     font-family: var(--heading_font);
-    color: var(--primary-color);
+    color: black;
+    
 }
 nav,p,article{
     margin: 16px;
@@ -221,7 +222,7 @@ body.contact-page main.contact-main > h1 {
   font-family: var(--heading_font);
   font-weight: bold;      
   font-size: 2.5rem;      
-  color: var(--primary-color);
+  
   text-align: center;     
   margin-bottom: 1rem;    
 }
@@ -320,7 +321,7 @@ body.contact-page .contact-form h2 {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 1rem;
-  color: var(--primary-color);
+  color: var(--primary-color)
 }
 
 
@@ -400,15 +401,17 @@ body.contact-page .contact-form button[type="submit"]:focus {
   outline: none;
 }
 
-main.contact-main h1{
+.contact-main h1{
   position: relative;
   top: 0;
+  background-color:#fff;
+  color: black;
 }
 main .contact-main img{
-  width: 1000px;
+  width: 640px;
 }
 main.contact-main h1,h2,h3,h4{
-  color: var(--primary-color);
+  color: black;
   font-family: var(--body_font);
   padding: 40px;
   font-weight: bolder;
