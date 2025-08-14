@@ -16,7 +16,7 @@ header{
     margin: 1rem auto;
     padding: 1rem;
     gap: 20px;
-    border-bottom: #222;
+    border-bottom: 10px;
     
 }
 
@@ -26,13 +26,16 @@ footer{
     grid-template-columns: auto 1fr;
     padding:  1rem;
     
-    background-color:#222;
+    background-color:black;
     color: #eee;
     justify-content: space-between;
     
     
     margin: auto;
     
+}
+footer p{
+  color: #fff;
 }
 
 
@@ -179,8 +182,8 @@ h1{
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: bisque;
-    color: black;
+
+    color: navy;
 }
 article {
     position: absolute;
@@ -360,6 +363,154 @@ body.contact-page .contact-form fieldset {
   border: none;
   padding: 0;
   margin: 0;
+}
+
+
+.newsletter-signup {
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.newsletter-signup label {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.newsletter-signup input {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.call-to-action {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: lightblue;
+  border-radius: 8px;
+}
+.nature-section h4,p{
+  font-family: var(--body_font);
+  font-weight: bolder;
+  color: black;
+  padding: 20px;
+}
+.moment-section h5,p{
+  font-family: var(--body_font);
+  font-weight: bolder;
+  color: black;
+  padding: 20px;
+}
+.call-to-action p a {
+  font-weight: bold;
+  color: #333;
+  text-decoration: underline;
+}
+
+
+.nature-section,
+.moments-section {
+  margin-top: 1rem;
+}
+
+.nature-section img,
+.moments-section img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+}
+
+
+
+
+.trips {
+  padding: 1rem;
+}
+
+
+.cta {
+  background-color: peachpuff;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.cta a {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+
+
+.trip {
+  margin-bottom: 1.5rem;
+  background-color: #fafafa;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
+
+.trip-heading {
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.trip-text {
+  margin-bottom: 0.6rem;
+}
+
+
+.trip-image {
+  text-align: center;
+}
+
+.trip-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.trip-caption {
+  font-style: italic;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: bold;
+}
+
+
+.trip-table-box {
+  margin-top: 1.5rem;
+}
+
+.table-title {
+  margin-bottom: 0.6rem;
+}
+
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+  text-align: center;
+  color:black;
+}
+
+.trip-table th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+  color: black;
+}
+
+.trip-table tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
 
